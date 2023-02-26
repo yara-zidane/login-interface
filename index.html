@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>New Login Form</title>
+            <link rel="stylesheet" href="css/fontawesome.min.css">
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <div class="hero">
+                <div class="form-box">
+
+                    <div class="button-box">
+                        <div id="btn"></div>  
+                        <button  class="toggle-btn" onclick="login()">Log In</button>
+                        <button  class="toggle-btn" onclick="register()">Register</button>
+                    </div>
+                    <div class="social-icons">
+                        <img src="../new-login-form/images/fb.png">
+                        <img src="../new-login-form/images/tw.png">
+                        <img src="../new-login-form/images/gp.png">
+                    </div>
+                    <form id="login" class="input-group">
+                        <input type="text"class="input-field" placeholder="User Name" required>
+                        <input type="password"class="input-field" placeholder="Enter Passowrd" required>
+                        <input type="checkbox" class="check-box"> <span>Remember Password</span>
+                        <button type="submit" class="submit-btn">Log In</button>
+                    </form>
+                    <form id="register" class="input-group">
+                        <input type="text"class="input-field" placeholder="User Name" required>
+                        <input type="email"class="input-field" placeholder="E-mail" required>
+                        <input type="password"class="input-field" placeholder="Enter Passowrd" required>
+                        <input type="checkbox" class="check-box"> <span>I Agree To Terms & Conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+                </div>
+                </div>
+            <script src="js/jq.js"></script>
+            <script src="js/plugin.js"></script>
+        </body>
+    </html>
